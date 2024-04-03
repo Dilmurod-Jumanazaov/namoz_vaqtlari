@@ -1,0 +1,221 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  height: 100%;
+}
+img {
+  display: block;
+  height: auto;
+}
+body {
+  margin: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.site-header {
+  padding: 30px 0;
+  background-color: rgb(67, 103, 148);
+}
+.container {
+  max-width: 1380px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.site-header__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.site-header__logo-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.site-header__logo-text {
+  margin: 0;
+  font-size: 26px;
+  color: white;
+}
+.site-header__select {
+  max-width: 250px;
+  width: 100%;
+  padding: 15px 20px;
+  font-size: 17px;
+  font-weight: bold;
+  color: black;
+  appearance: none;
+  border: 2px solid green;
+  border-radius: 5px;
+  background-color: rgb(187, 229, 187);
+  box-shadow: 0px 5px 20px 2px rgba(34, 60, 80, 0.2);
+  background-image: url("/images/todwon.png");
+  background-repeat: no-repeat;
+  background-position: 200px center;
+  background-size: 15px;
+}
+.select-bg-change {
+  background-image: url("/images/toup.png");
+  background-repeat: no-repeat;
+  background-position: 200px center;
+  background-size: 15px;
+}
+.hero__wrapper {
+  padding-bottom: 50px; 
+}
+.hero__info-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.hero__title {
+  font-size: 34px;
+  text-align: center;
+  color: green;
+}
+.hero__title-region {
+  font-size: 38px;
+}
+.hero__date {
+  margin-bottom: 10px;
+  font-size: 24px;
+  color: green;
+}
+.hero__hour {
+  margin-bottom: 30px;
+  font-size: 22px;
+  letter-spacing: 2px;
+  color: green;
+}
+.hero__btn-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+.day-btn {
+  max-width: 130px;
+  width: 100%;
+  padding: 10px 0;
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
+  border: transparent;
+  background-color:  rgb(67, 103, 148);
+  transition: background-color 0.3s ease;
+}
+.week-btn {
+  max-width: 130px;
+  width: 100%;
+  padding: 10px 0;
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
+  border: transparent;
+  background-color:  rgb(67, 103, 148);
+  transition:  background-color 0.3s ease;
+}
+.month-btn {
+  max-width: 130px;
+  width: 100%;
+  padding: 10px 0;
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
+  border: transparent;
+  background-color:  rgb(67, 103, 148);
+  transition: background-color 0.3s ease;
+}
+.day-btn:hover {
+  background-color: green;
+}
+.week-btn:hover {
+  background-color: green;
+}
+.month-btn:hover {
+  background-color: green;
+}
+.hero__month-btn-select {
+  max-width: 75px;
+  width: 100%;
+  padding: 10px 5px;
+  font-size: 17px;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  background-color: rgb(67, 103, 148);
+}
+.hero__list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin: 0;
+  padding: 25px;
+  border: 2px solid;
+  border-radius: 10px;
+  list-style: none;
+}
+.hero__item {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 200px;
+  width: 100%;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 6px;
+}
+.hero__item-img {
+  max-width: 130px;
+  width: 100%;
+  height: 150px;
+}
+.hero__item-title {
+  margin: 0;
+}
+.hero__item-time {
+  font-size: 18px;
+  color: green;
+}
+.hero__table {
+  display: none;
+  width: 100%;
+  border-collapse: collapse;
+}
+.hero__table-header {
+  width: 100%;
+  background-color: rgb(67, 103, 148);
+  color: white;
+}
+.hero__header-row {
+  border: 2px solid black;
+}
+.hero__table-heading {
+  padding: 10px;
+  font-size: 20px;
+  letter-spacing: 1.2px;
+  border: 2px solid black;
+}
+.hero__table-desc {
+  padding: 10px;
+  text-align: center;
+  border: 2px solid black;
+}
+/* .table-current-day {
+}
+.table-date {
+}
+.table-bomdod {
+}
+.table-quyosh {
+}
+.table-peshin {
+}
+.table-asr {
+}
+.table-shom {
+}
+.table-hufton {
+} */
